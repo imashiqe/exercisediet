@@ -1,0 +1,35 @@
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#diet{
+    margin-top: 150px;
+    display: flex;
+    width: 1170px;
+    
+}
+
+.diet_text{
+    width: 500px;
+}
+
+.diet_text h1{
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(121, 121, 123, 1);
+    font-weight: 400;
+}
+.diet_text h1 span{
+    color: #038bf6;
+}
+
+.diet_image{
+    width: 500px;
+}
+
+.diet_image img{
+    width: 800px;
+    height: 800px;
+}
+
