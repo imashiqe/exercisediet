@@ -1,12 +1,9 @@
-.wrapper{
-    width: 1170px;
-    margin: 0 auto;
-}
 
 #diet{
     margin-top: 150px;
     display: flex;
     width: 1170px;
+    margin: 0 auto;
     
 }
 
@@ -15,7 +12,7 @@
 }
 
 .diet_text h1{
-    font-size: 70px;
+    font-size: 50px;
     font-family: 'Poppins', sans-serif;
     color: rgba(121, 121, 123, 1);
     font-weight: 400;
@@ -23,7 +20,19 @@
 .diet_text h1 span{
     color: #038bf6;
 }
+.diet_text p{
+    font-size: 20px;
+}
 
+.diet_text a{
+    text-decoration: none;
+    background: linear-gradient( rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 15px;
+    border-radius: 10%;
+    color: white;
+  
+
+}
 .diet_image{
     width: 500px;
 }
@@ -33,3 +42,138 @@
     height: 800px;
 }
 
+/* about */
+#about{
+    margin-top: 150px;
+    background-image: url(../image/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+
+}
+
+.about_full{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.about_text{
+    text-align: center;
+}
+
+.about_text h2{
+    font-size: 50px;
+    color: gray;
+}
+
+.about_text p{
+    font-size: 20px;
+}
+
+/* recipies */
+
+#recipies{
+    margin-top: 150px;
+
+}
+
+.recipies_text{
+    text-align: center;
+}
+
+.recipies_text h2{
+        font-size: 50px;
+        font-weight: 700;
+        color: gray;
+        font-family: 'Poppins', sans-serif;
+}
+
+.recipies_text p{
+    font-size: 20px;
+}
+
+.card{
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+}
+
+.card_01{
+    width: 500px;
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+    border-radius: 5%;
+
+
+}
+.card_01 img{
+    width: 400px;
+    padding-top: 50px;
+    padding-left: 50px;
+   
+}
+
+
+.card_02 {
+    width: 500px;
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+    margin-left: 150px;
+    border-radius: 5%;
+}
+
+.card_02 img{
+    width: 400px;
+    padding-top: 50px;
+    padding-left: 50px;
+    
+}
+
+.card_text{
+    padding-left: 50px;
+    padding-bottom: 60px;
+}
+
+#count{
+    margin-top: 80px;
+  
+    
+   
+}
+
+.count_01{
+    width: 400px;
+    text-align: center;
+}
+.count_02 {
+    width: 400px;
+    text-align: center;
+}
+.count_03{
+    width: 400px;
+    text-align: center;
+}
+
+.count_dev{
+
+    width: 1170px;
+    box-shadow: 5px 7px 40px gray;
+    border-radius: 5%;
+    display: flex;
+    margin: 0 auto;
+}
+
+#footer{
+    margin-top: 150px;
+   width: 100%;
+   background-color: black;
+   height: 200px;
+}
+
+#footer h2{
+   font-size: 20px;
+   color: rgb(192, 169, 169);
+   text-align: center;
+   padding-top: 20px;
+}
